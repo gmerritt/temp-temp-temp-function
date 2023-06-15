@@ -1,0 +1,18 @@
+{
+    "azureFunctions.deploySubpath": ".",
+    //"azureFunctions.postDeployTask": "npm install",
+    "azureFunctions.projectLanguage": "JavaScript",
+    "azureFunctions.projectRuntime": "~3",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.scmDoBuildDuringDeployment": true,
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "basic",
+    "typescript.tsserver.maxTsServerMemory": 3072,
+    "typescript.tsserver.watchOptions": {
+        "watchFile": "dynamicPriorityPolling"
+    },
+    "javascript.suggest.includeAutomaticOptionalChainCompletions": false,
+    "debug.saveBeforeStart": "none",
+    "c3.welcome.showFeatureHighlight": false
+    //"azureFunctions.preDeployTask": "npm prune"
+}
